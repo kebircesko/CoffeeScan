@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CoffeeScan.iml" filepath="$PROJECT_DIR$/CoffeeScan.iml" />
+      <module fileurl="file://C:\Users\Miran Hoxha\AndroidStudioProjects\CoffeeScan\CoffeeScan.iml" filepath="C:\Users\Miran Hoxha\AndroidStudioProjects\CoffeeScan\CoffeeScan.iml" />
       <module fileurl="file://C:\Users\hp\AndroidStudioProjects\CoffeeScan\CoffeeScan.iml" filepath="C:\Users\hp\AndroidStudioProjects\CoffeeScan\CoffeeScan.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://C:\Users\hp\AndroidStudioProjects\CoffeeScan\app\app.iml" filepath="C:\Users\hp\AndroidStudioProjects\CoffeeScan\app\app.iml" />
+      <module fileurl="file://C:\Users\Miran Hoxha\AndroidStudioProjects\CoffeeScan\app\app.iml" filepath="C:\Users\Miran Hoxha\AndroidStudioProjects\CoffeeScan\app\app.iml" />
     </modules>
   </component>
 </project>
