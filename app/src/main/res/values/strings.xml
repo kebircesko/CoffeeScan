@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">CoffeeScan</string>
-
+    <string name="hello">HelloTest</string>
 </resources>
