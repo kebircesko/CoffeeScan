@@ -1,4 +1,22 @@
 <resources>
-    <string name="app_name">CoffeeScan</string>
-    <string name="hello">HelloTest</string>
+    <string name="app_name">CoffeeScann</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">Tjetra</string>
+    <string name="skip">Skip</string>
+    <string name="start">Në rregull</string>
+
+    <string name="slide_1_title">Hej!</string>
+    <string name="slide_1_desc">Ju prezantojmë CoffeScann.</string>
+
+    <string name="slide_2_title">A je per kafe?</string>
+    <string name="slide_2_desc">Mjafton të skanoni QR kodin dhe te prisni per kafen tuaj!</string>
+
+    <string name="slide_3_title">Ose ushqim!</string>
+    <string name="slide_3_desc">Për qdo produkt vlen po e njejta gjë, porosit duke skanuar.</string>
+
+    <string name="slide_4_title">Faleminderit</string>
+    <string name="slide_4_desc">Ju falemderojmë qe përdorni CoffeScann. Ju bëftë mire!</string>
+
+    <string name="play_again_desc">Për ta parë slajderin perseri, shko tek Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Luaj Përsëri</string>
 </resources>
