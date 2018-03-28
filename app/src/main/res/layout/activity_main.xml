@@ -6,42 +6,30 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@color/bg_screen5"
     tools:context="com.example.kebir.coffeescan.MainActivity">
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Kebir Cesko " />
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:src="@drawable/logo" />
 
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_scan"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Gentijan Qeriqi " />
+        android:layout_height="66dp"
+        android:layout_marginTop="40dp"
+        android:text="Skano QR-kodin" />
 
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mensur Berisha" />
-
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Miran Hoxha" />
 
     <Button
         android:id="@+id/btn_feedback"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="63dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginTop="135dp"
+        android:layout_marginTop="120dp"
         android:text="@string/button_feedback" />
 
 
