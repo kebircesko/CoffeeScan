@@ -13,12 +13,23 @@ import android.widget.Toast;
 import android.view.Menu;
 
 
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        findViewById(R.id.btn_scan).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, QrCodeActivity.class));
+            }
+        });
+
+
+
         findViewById(R.id.btn_feedback).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,4 +54,3 @@ public class MainActivity extends AppCompatActivity {
         startActivity(Intent.createChooser(_Intent, getString(R.string.title_send_feedback)));
     }
 }
-
