@@ -12,6 +12,8 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 import com.google.zxing.Result;
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
@@ -53,7 +55,7 @@ public class QrCodeActivity extends AppCompatActivity implements ZXingScannerVie
         {
             if(checkPermission())
             {
-                Toast.makeText(getApplicationContext(), "Permission already granted!", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Ok", Toast.LENGTH_LONG).show();
             }
             else
             {
@@ -104,12 +106,12 @@ public class QrCodeActivity extends AppCompatActivity implements ZXingScannerVie
 
                     boolean cameraAccepted = grantResults[0] == PackageManager.PERMISSION_GRANTED;
                     if (cameraAccepted){
-                        Toast.makeText(getApplicationContext(), "Permission Granted, Now you can access camera", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Ne rregull", Toast.LENGTH_LONG).show();
                     }else {
-                        Toast.makeText(getApplicationContext(), "Permission Denied, You cannot access and camera", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Duhet te qaseni ne kamerë", Toast.LENGTH_LONG).show();
                         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                             if (shouldShowRequestPermissionRationale(CAMERA)) {
-                                showMessageOKCancel("You need to allow access to both the permissions",
+                                showMessageOKCancel("Duhet ti jepni akses kameres",
                                         new DialogInterface.OnClickListener() {
                                             @Override
                                             public void onClick(DialogInterface dialog, int which) {
@@ -138,7 +140,7 @@ public class QrCodeActivity extends AppCompatActivity implements ZXingScannerVie
     }
 
     @Override
-    public void handleResult(Result result) {
+    public void handleResult(final Result result) {
         final String myResult = result.getText();
         Log.d("QRCodeScanner", result.getText());
         Log.d("QRCodeScanner", result.getBarcodeFormat().toString());
@@ -149,11 +151,16 @@ public class QrCodeActivity extends AppCompatActivity implements ZXingScannerVie
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 scannerView.resumeCameraPreview(QrCodeActivity.this);
+
+                if(myResult.equals("coffescann")){
+
+                startActivity(new Intent(QrCodeActivity.this, MenuActivity.class));}
             }
         });
         builder.setNeutralButton("Visit", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
+
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(myResult));
                 startActivity(browserIntent);
             }
