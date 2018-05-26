@@ -4,32 +4,32 @@ public class OurData2 {
 
     public static String[] title2 = new String[]{
 
-            "Ushqimi",
-            "Pije",
-            "Pije",
-            "Pije",
-            "Pije",
-            "kafetest",
-            "kafetest1",
-            "kafetest2",
-            "kafetest3",
-            "kafetest4"
+            "Pice proshute",
+            "Pice margarita",
+            "Pice tuna",
+            "Pice me suxhuk",
+            "Hamburger",
+            "Sandwich",
+            "Chicken wings",
+            "Makarona",
+            "Shpageta",
+            "Pomfrit"
 
 
     };
 
     public static int[] picturePath2 = new int []{
 
-            R.drawable.coffee,
-            R.drawable.pijeico,
-            R.drawable.coffee,
-            R.drawable.coffee,
-            R.drawable.coffee,
-            R.drawable.coffee,
-            R.drawable.coffee,
-            R.drawable.coffee,
-            R.drawable.coffee,
-            R.drawable.coffee
+            R.drawable.pizza,
+            R.drawable.margarita,
+            R.drawable.tuna,
+            R.drawable.suxhuk,
+            R.drawable.burger1,
+            R.drawable.sandwich,
+            R.drawable.pule,
+            R.drawable.makarona,
+            R.drawable.shpageta,
+            R.drawable.pomfrit
 
 
     };
