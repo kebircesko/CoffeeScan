@@ -3,17 +3,21 @@
 
     <item
         android:id="@+id/nav_home"
-        android:icon="@drawable/ic_arrow_downward_black_24dp"
+        android:icon="@drawable/kafeico"
         android:title="Kafe" />
 
     <item
         android:id="@+id/nav_favorites"
-        android:icon="@drawable/ic_arrow_downward_black_24dp"
+        android:icon="@drawable/pijeico"
         android:title="Pije" />
 
     <item
         android:id="@+id/nav_search"
-        android:icon="@drawable/ic_arrow_downward_black_24dp"
+        android:icon="@drawable/ushqimico"
         android:title="Ushqim" />
 
+    <item
+        android:id="@+id/nav_favs"
+        android:icon="@drawable/porosia"
+        android:title="Porosia" />
 </menu>
