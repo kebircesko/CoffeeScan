@@ -4,12 +4,12 @@ public class OurData {
 
     public static String[] title = new String[]{
 
-      "Espresso",
-      "Makiato",
-      "Qokollate",
-      "Frappe",
-      "Cappuccino",
-      "Kafe amerikane"
+      "Espresso             (0,50)",
+      "Makiato               (1,00)",
+      "Çokollate             (1,00)",
+      "Frappe                  (1,50)",
+      "Cappuccino         (1,50)",
+      "Amerikane           (1,00)"
 
 
     };

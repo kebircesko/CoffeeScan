@@ -4,15 +4,15 @@ public class OurData1 {
 
     public static String[] title1 = new String[]{
 
-            "Leng portokalli",
-            "Leng vishnje",
-            "Leng boronice",
-            "Leng molle",
-            "Koktell",
-            "Limonade",
-            "Coca Cola",
-            "Schweppes",
-            "Sprite"
+            "Portokall              (1,00)",
+            "Vishnje                 (1,00)",
+            "Boronice              (1,00)",
+            "Molle                    (1,00)",
+            "Koktell                  (1,00)",
+            "Limonade            (1,00)",
+            "Coca Cola            (1,00)",
+            "Schweppes          (1,00)",
+            "Sprite                    (1,00)"
 
 
     };
